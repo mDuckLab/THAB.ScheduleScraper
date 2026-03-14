@@ -16,10 +16,16 @@ SOURCES = [
 ]
 
 def extract_times(cell_text):
-    """
-    Finds time patterns like '14:00 - 15:30'.
-    Regex: (\d{1,2}:\d{2}) -> Group 1 (Start), (\d{1,2}:\d{2}) -> Group 2 (End)
-    """
+    # Regex explanation
+    # 8 : 00 or 16:30
+    # \d{1,2}  -> Matches 1 or 2 digits (Hour)
+    # :        -> Matches a literal colon
+    # \d{2}    -> Matches exactly 2 digits (Minutes)
+    # \s*-\s* -> Matches a hyphen with optional spaces around it
+    # ( )      -> Captures the match into a 'group' we can use later
+    #             ( Group 1 )          ( Group 2 )
+
+    # Raw strings (r-strings) treat backslashes as literal text
     time_pattern = r'(\d{1,2}:\d{2})\s*-\s*(\d{1,2}:\d{2})'
     match = re.search(time_pattern, cell_text)
     
@@ -31,11 +37,7 @@ def extract_times(cell_text):
     return "00:00", "00:00"
 
 def parse_date_with_year_logic(date_string, detected_years):
-    """
-    Combines the day/month (e.g. 30.03.) with the detected years from the header.
-    Handles weeks that cross into a new year (Dec -> Jan).
-    """
-    # Regex for DD.MM.
+    # DD.MM.
     date_match = re.search(r'(\d{2})\.(\d{2})\.', date_string)
     if date_match is None:
         return datetime(2099, 1, 1) # Fallback for invalid dates
@@ -44,7 +46,6 @@ def parse_date_with_year_logic(date_string, detected_years):
     month = int(date_match.group(2))
     
     # Decide which year to use
-    # If the week header has two years (e.g. 2025 and 2026)
     if len(detected_years) > 1:
         # Use first year for December, second year for January
         if month == 12:
@@ -58,6 +59,34 @@ def parse_date_with_year_logic(date_string, detected_years):
         
     return datetime(target_year, month, day)
 
+def save_to_ical(aggregated_data):
+    """Creates the .ics file for calendar import."""
+    cal = Calendar()
+    cal.add('prodid', '-//TH-AB Schedule Scraper//')
+    cal.add('version', '2.0')
+
+    for entry in aggregated_data:
+        if entry['date_obj'].year == 2099:
+            continue
+            
+        event = Event()
+        full_text = entry['content']
+        title_parts = full_text.split(' Uhr ')
+        clean_title = title_parts[-1][:60] 
+        
+        event.add('summary', clean_title)
+        event.add('description', full_text)
+        
+        start_h, start_m = map(int, entry['start'].split(':'))
+        end_h, end_m = map(int, entry['end'].split(':'))
+        
+        event.add('dtstart', entry['date_obj'].replace(hour=start_h, minute=start_m))
+        event.add('dtend', entry['date_obj'].replace(hour=end_h, minute=end_m))
+        
+        cal.add_component(event)
+
+    with open('th_schedule.ics', 'wb') as f:
+        f.write(cal.to_ical())
 
 def main():
     # browser setup
@@ -83,15 +112,94 @@ def main():
             for week_header in week_divs:
                 header_text = week_header.text
                 print(f"{header_text}")
-
+                
                 # extract years, they all start with 20 and have two digits
                 year_matches = re.findall(r'20\d{2}', header_text)
-                print(f"{year_matches}")
                 detected_years = []
+                
+                # convert string[] to int[]
                 for y_str in year_matches:
                     detected_years.append(int(y_str))
-                    print(f"{detected_years}")
+                
+                if len(detected_years) == 0:
+                    continue # Skip this block if no year info found
 
+                # 2. FIND ASSOCIATED TABLE
+                # The table is a 'sibling' of the div w2 in the HTML tree
+                try:
+                    # XPath: "./following-sibling::table[1]" means 
+                    # "From here, look down and pick the first table"
+                    target_table = week_header.find_element(By.XPATH, "./following-sibling::table[1]")
+                except:
+                    continue # No table found for this week header
+
+                # 3. SCAN DAY HEADERS (Horizontal positions)
+                day_elements = target_table.find_elements(By.XPATH, ".//td[contains(text(), ', ')]")
+                active_days = []
+                for day_el in day_elements:
+                    day_text = day_el.text.strip()
+                    if any(prefix in day_text for prefix in ["Mo,", "Di,", "Mi,", "Do,", "Fr,"]):
+                        loc = day_el.location
+                        size = day_el.size
+                        active_days.append({
+                            "name": day_text,
+                            "x_start": loc['x'],
+                            "x_end": loc['x'] + size['width']
+                        })
+
+                if len(active_days) == 0:
+                    continue
+
+                # 4. SCAN SUBJECT CELLS
+                content_cells = target_table.find_elements(By.TAG_NAME, "td")
+                for cell in content_cells:
+                    cell_txt = cell.text.replace('\n', ' ').strip()
+                    if len(cell_txt) < 10:
+                        continue 
+                    
+                    # FILTER LOGIC
+                    should_process = False
+                    if len(source['filter']) == 0:
+                        should_process = True
+                    else:
+                        for keyword in source['filter']:
+                            # Regex with Word Boundaries (\b) to match "Japanisch I" but not "Japanisch II"
+                            if re.search(rf"\b{re.escape(keyword)}(?![IVX])\b", cell_txt, re.I):
+                                should_process = True
+                                break
+                    
+                    if should_process:
+                        cell_loc = cell.location
+                        cell_size = cell.size
+                        cell_x_start = cell_loc['x']
+                        cell_x_end = cell_x_start + cell_size['width']
+                        
+                        # OVERLAP LOGIC: Match cell to a day by checking X-coordinates
+                        matched_day_name = "Unknown"
+                        for d in active_days:
+                            overlap = max(0, min(cell_x_end, d['x_end']) - max(cell_x_start, d['x_start']))
+                            if overlap > 0:
+                                matched_day_name = d['name']
+                                break
+                        
+                        if matched_day_name != "Unknown":
+                            start_t, end_t = extract_times(cell_txt)
+                            date_obj = parse_date_with_year_logic(matched_day_name, detected_years)
+                            
+                            final_results.append({
+                                "date_obj": date_obj,
+                                "start": start_t,
+                                "end": end_t,
+                                "content": cell_txt
+                            })
+                            print(f"✅ Found: {date_obj.strftime('%d.%m.%Y')} | {start_t}-{end_t} | {cell_txt[:40]}...")
+
+        # FINAL STEP: Export to File
+        if len(final_results) > 0:
+            save_to_ical(final_results)
+            print(f"\n🚀 Finished! {len(final_results)} events exported to 'th_schedule.ics'")
+        else:
+            print("\n❌ No matching courses found. Check your filters!")
 
     finally:
         # Crucial: Always close the invisible browser to free up RAM

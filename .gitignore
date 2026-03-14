@@ -1,0 +1,24 @@
+# Python stuff
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+
+# Project specific
+th_schedule.ics
+*.log
+
+# Selenium / Drivers
+/drivers/
+
+# IDE-spezifische Dateien (VS Code & PyCharm)
+.vscode/
+.idea/
+
+# Betriebssystem-Müll
+.DS_Store
+Thumbs.db
+
+# Environment-Variablen (falls du später Passwörter/Tokens nutzt)
+.env
