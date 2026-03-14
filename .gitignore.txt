@@ -1,0 +1,13 @@
+# Python stuff
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+
+# Project specific
+th_schedule.ics
+*.log
+
+# Selenium / Drivers
+/drivers/
