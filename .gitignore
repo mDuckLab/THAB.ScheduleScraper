@@ -6,7 +6,7 @@ __pycache__/
 venv/
 
 # Project specific
-th_schedule.ics
+# th_schedule.ics
 *.log
 
 # Selenium / Drivers
