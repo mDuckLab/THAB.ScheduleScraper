@@ -1,3 +1,4 @@
+import os
 import time
 import re
 from datetime import datetime
@@ -5,6 +6,9 @@ from selenium import webdriver
 from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.common.by import By
+from selenium.webdriver.edge.service import Service as EdgeService
+from selenium.webdriver.edge.options import Options as EdgeOptions
+from webdriver_manager.microsoft import EdgeChromiumDriverManager
 from webdriver_manager.chrome import ChromeDriverManager
 from icalendar import Calendar, Event
 
@@ -88,16 +92,38 @@ def save_to_ical(aggregated_data):
     with open('th_schedule.ics', 'wb') as f:
         f.write(cal.to_ical())
 
-def main():
-    # browser setup
+def create_chorme_options():
     # Configure Chrome to run invisibly in the background
     chrome_options = Options()
     chrome_options.add_argument("--headless")
     chrome_options.add_argument("--window-size=1920,1080")
+    return chrome_options
+
+def create_edge_options():
+    edge_options = EdgeOptions()
+    edge_options.add_argument("--headless")
+    edge_options.add_argument("--window-size=1920,1080")
+    return edge_options
+
+def main():
+    # user input promt
+    print("--- Select browser to scrape ---")
+    print("1: Chrome\n2: Edge\n")
+    browser_selection = int(input("Select browser:"))
+
+    if (browser_selection == 1):
+        options = create_chorme_options()
+        driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()), options=options)
+    else:
+        options = create_edge_options()
+
+        # create driver path for the edge driver
+        script_dir = os.path.dirname(os.path.abspath(__file__))
+        driver_path = os.path.join(script_dir, "drivers\msedgedriver.exe")
+
+        driver = webdriver.Edge(service=EdgeService(driver_path), options=options)
     
     # Automatic driver management
-    driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()), options=chrome_options)
-    
     final_results = []
     
     try:
