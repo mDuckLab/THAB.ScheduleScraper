@@ -1,0 +1,43 @@
+name: Hourly University Update
+
+on:
+  schedule:
+    # '0' = Minute 0
+    # '5-15' = 5 bis 15 Uhr UTC (entspricht 6 bis 16 Uhr deutscher Winterzeit)
+    # '*' = Jeden Tag im Monat
+    # '*' = Jeden Monat
+    # '1-5' = Montag bis Freitag
+    - cron: '0 5-15 * * 1-5'
+  workflow_dispatch: # Erlaubt manuelles Starten zum Testen
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write # Erlaubt das Hochladen der .ics Datei
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install selenium webdriver-manager icalendar
+
+      - name: Run Scraper
+        run: python scraper.py
+
+      - name: Commit and push changes
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add th_schedule.ics
+          # Nur pushen, wenn sich die Datei wirklich geändert hat
+          git commit -m "Auto-update calendar: $(date)" || echo "No changes"
+          git push origin devM
