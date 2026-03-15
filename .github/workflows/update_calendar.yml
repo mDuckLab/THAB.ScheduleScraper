@@ -1,5 +1,6 @@
 name: Hourly University Update
 
+
 on:
   schedule:
     # '0' = Minute 0
