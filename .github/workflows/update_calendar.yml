@@ -30,28 +30,24 @@ jobs:
         run: python scraper.py
 
       - name: Deploy to calendarLive branch
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          # Git Konfiguration
-          git config --local user.email "action@github.com"
-          git config --local user.name "GitHub Action"
-          
-          # Wir erstellen einen sauberen Ordner nur für den Export
+          # 1. Ordner vorbereiten und Datei kopieren
           mkdir export_dir
           cp th_schedule.ics export_dir/
           cd export_dir
           
-          # Ein neues Git-Repo in diesem Unterordner initialisieren
+          # 2. Neues Git-Projekt im Unterordner starten
           git init
-          git remote add origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git
-          git checkout -b calendarLive
           
-          # Datei hinzufügen und committen
+          # 3. Identität festlegen (MUSS nach git init kommen!)
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          
+          # 4. Datei hinzufügen und committen
           git add th_schedule.ics
+          git commit -m "Update calendar: $(date)" || echo "No changes"
           
-          # Prüfen, ob sich die Datei geändert hat (verhindert unnötige Pushes)
-          # Da wir git init nutzen, committen wir hier immer den aktuellen Stand
-          git commit -m "Update calendar: $(date)"
-          
-          # Mit --force überschreiben wir den Branch calendarLive jedes Mal komplett.
-          # Das hält die History sauber (immer nur 1 Commit).
-          git push origin calendarLive --force
+          # 5. Der Power-Push direkt auf den Branch calendarLive
+          git push --force https://x-access-token:${GITHUB_TOKEN}@github.com/${{ github.repository }}.git HEAD:calendarLive
