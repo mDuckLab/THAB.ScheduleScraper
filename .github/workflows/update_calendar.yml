@@ -1,13 +1,8 @@
 name: Hourly University Update
 
-
 on:
   schedule:
-    # '0' = Minute 0
-    # '5-15' = 5 bis 15 Uhr UTC (entspricht 6 bis 16 Uhr deutscher Winterzeit)
-    # '*' = Jeden Tag im Monat
-    # '*' = Jeden Monat
-    # '1-5' = Montag bis Freitag
+    # '0 5-15 * * 1-5' = Stündlich von 6:00 bis 16:00 Uhr deutscher Zeit (Mo-Fr)
     - cron: '0 5-15 * * 1-5'
   workflow_dispatch: # Erlaubt manuelles Starten zum Testen
 
@@ -15,7 +10,7 @@ jobs:
   build:
     runs-on: ubuntu-latest
     permissions:
-      contents: write # Erlaubt das Hochladen der .ics Datei
+      contents: write # Wichtig für den Push-Vorgang
 
     steps:
       - name: Checkout code
@@ -34,11 +29,29 @@ jobs:
       - name: Run Scraper
         run: python scraper.py
 
-      - name: Commit and push changes
+      - name: Deploy to calendarLive branch
         run: |
+          # Git Konfiguration
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
+          
+          # Wir erstellen einen sauberen Ordner nur für den Export
+          mkdir export_dir
+          cp th_schedule.ics export_dir/
+          cd export_dir
+          
+          # Ein neues Git-Repo in diesem Unterordner initialisieren
+          git init
+          git remote add origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git
+          git checkout -b calendarLive
+          
+          # Datei hinzufügen und committen
           git add th_schedule.ics
-          # Nur pushen, wenn sich die Datei wirklich geändert hat
-          git commit -m "Auto-update calendar: $(date)" || echo "No changes"
-          git push origin devM
+          
+          # Prüfen, ob sich die Datei geändert hat (verhindert unnötige Pushes)
+          # Da wir git init nutzen, committen wir hier immer den aktuellen Stand
+          git commit -m "Update calendar: $(date)"
+          
+          # Mit --force überschreiben wir den Branch calendarLive jedes Mal komplett.
+          # Das hält die History sauber (immer nur 1 Commit).
+          git push origin calendarLive --force
