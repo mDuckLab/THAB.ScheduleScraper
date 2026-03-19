@@ -3,7 +3,7 @@ name: Hourly University Update
 on:
   schedule:
     # '0 5-15 * * 1-5' = Stündlich von 6:00 bis 16:00 Uhr deutscher Zeit (Mo-Fr)
-    - cron: '0 5-15 * * 1-5'
+    - cron: '0 3-15 * * 1-5'
   workflow_dispatch: # Erlaubt manuelles Starten zum Testen
 
 jobs:
