@@ -50,8 +50,8 @@ SOURCES = [
 
 SOURCES = [
     {"url": "https://www.th-ab.de/fileadmin/th-ab-redaktion/Stundenplaene/SP-MST.html", "filter": []},
-    {"url": "https://www.th-ab.de/fileadmin/th-ab-redaktion/Stundenplaene/SP-MSE.html", "filter": []},
-    {"url": "https://www.th-ab.de/fileadmin/th-ab-redaktion/Stundenplaene/Sprachen.html", "filter": ["Engineering English"]}
+    {"url": "https://www.th-ab.de/fileadmin/th-ab-redaktion/Stundenplaene/SP-MSE.html", "filter": []} #,
+    # {"url": "https://www.th-ab.de/fileadmin/th-ab-redaktion/Stundenplaene/Sprachen.html", "filter": ["Engineering English"]}
 ]
 
 # TARGET_GROUP: Set this to "Gr. 1" or "Gr. 2" to filter specific groups, or None for all.
