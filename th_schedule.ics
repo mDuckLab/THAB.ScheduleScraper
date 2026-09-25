@@ -1,0 +1,866 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//TH-AB Schedule Scraper//
+BEGIN:VEVENT
+SUMMARY:Aufbau von Mikrosystemen MST Prof. Dr. Kaloudis Hörsaal 49-119 au
+ fsteigend (IWIN) MST WiSe
+DTSTART:20261008T080000
+DTEND:20261008T093000
+DESCRIPTION:8:00 - 9:30 Uhr V Aufbau von Mikrosystemen MST Prof. Dr. Kalou
+ dis Hörsaal 49-119 aufsteigend (IWIN) MST WiSe
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Aufbau von Mikrosystemen MST Prof. Dr. Kaloudis Labor für Aufbau-
+  und Verbindungstechnik 49-E22 MST WiSe
+DTSTART:20261008T094500
+DTEND:20261008T111500
+DESCRIPTION:9:45 - 11:15 Uhr PR Aufbau von Mikrosystemen MST Prof. Dr. Kal
+ oudis Labor für Aufbau- und Verbindungstechnik 49-E22 MST WiSe
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Aufbau von Mikrosystemen MST Prof. Dr. Kaloudis Labor für Aufbau-
+  und Verbindungstechnik 49-E22 MST WiSe
+DTSTART:20261008T113000
+DTEND:20261008T130000
+DESCRIPTION:11:30 - 13:00 Uhr PR Aufbau von Mikrosystemen MST Prof. Dr. Ka
+ loudis Labor für Aufbau- und Verbindungstechnik 49-E22 MST WiSe
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Mikrosystemtechnologie MST Prof. Dr.-Ing Thielemann Hörsaal 40-23
+ 0 (IWIN) MST WiSe
+DTSTART:20261008T140000
+DTEND:20261008T153000
+DESCRIPTION:14:00 - 15:30 Uhr V Mikrosystemtechnologie MST Prof. Dr.-Ing T
+ hielemann Hörsaal 40-230 (IWIN) MST WiSe
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Schaltungstechnik II MSE Prof. Dr.-Ing Keil Hörsaal 26-216 (IWIN)
+  MES WiSe
+DTSTART:20261009T080000
+DTEND:20261009T093000
+DESCRIPTION:8:00 - 9:30 Uhr V Schaltungstechnik II MSE Prof. Dr.-Ing Keil 
+ Hörsaal 26-216 (IWIN) MES WiSe
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Praktikum Mikrocomputertechnik MSE Prof. Dr.-Ing Volpe Labor für 
+ Digitaltechnik und Mikrocomputertechnik 26-109/110 MES WiSe
+DTSTART:20261009T094500
+DTEND:20261009T111500
+DESCRIPTION:9:45 - 11:15 Uhr PR Praktikum Mikrocomputertechnik MSE Prof. D
+ r.-Ing Volpe Labor für Digitaltechnik und Mikrocomputertechnik 26-109/110
+  MES WiSe
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Praktikum Mikrocomputertechnik MSE Prof. Dr.-Ing Volpe Labor für 
+ Digitaltechnik und Mikrocomputertechnik 26-109/110 MES WiSe
+DTSTART:20261009T113000
+DTEND:20261009T130000
+DESCRIPTION:11:30 - 13:00 Uhr PR Praktikum Mikrocomputertechnik MSE Prof. 
+ Dr.-Ing Volpe Labor für Digitaltechnik und Mikrocomputertechnik 26-109/11
+ 0 MES WiSe
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Schaltungstechnik II MSE Prof. Dr.-Ing Keil Hörsaal 26-216 (IWIN)
+  MES WiSe
+DTSTART:20261009T140000
+DTEND:20261009T153000
+DESCRIPTION:14:00 - 15:30 Uhr V Schaltungstechnik II MSE Prof. Dr.-Ing Kei
+ l Hörsaal 26-216 (IWIN) MES WiSe
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Aufbau von Mikrosystemen MST Prof. Dr. Kaloudis Hörsaal 49-119 au
+ fsteigend (IWIN) MST WiSe
+DTSTART:20261015T080000
+DTEND:20261015T093000
+DESCRIPTION:8:00 - 9:30 Uhr V Aufbau von Mikrosystemen MST Prof. Dr. Kalou
+ dis Hörsaal 49-119 aufsteigend (IWIN) MST WiSe
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Mikrosystemtechnologie MST Prof. Dr.-Ing Thielemann Labor für Mik
+ rosystemtechnik 40-120 MST WiSe
+DTSTART:20261015T094500
+DTEND:20261015T111500
+DESCRIPTION:9:45 - 11:15 Uhr PR Mikrosystemtechnologie MST Prof. Dr.-Ing T
+ hielemann Labor für Mikrosystemtechnik 40-120 MST WiSe
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Mikrosystemtechnologie MST Prof. Dr.-Ing Thielemann Labor für Mik
+ rosystemtechnik 40-120 MST WiSe
+DTSTART:20261015T113000
+DTEND:20261015T130000
+DESCRIPTION:11:30 - 13:00 Uhr PR Mikrosystemtechnologie MST Prof. Dr.-Ing 
+ Thielemann Labor für Mikrosystemtechnik 40-120 MST WiSe
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Mikrosystemtechnologie MST Prof. Dr.-Ing Thielemann Hörsaal 40-23
+ 0 (IWIN) MST WiSe
+DTSTART:20261015T140000
+DTEND:20261015T153000
+DESCRIPTION:14:00 - 15:30 Uhr V Mikrosystemtechnologie MST Prof. Dr.-Ing T
+ hielemann Hörsaal 40-230 (IWIN) MST WiSe
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Schaltungstechnik II MSE Prof. Dr.-Ing Keil Hörsaal 26-216 (IWIN)
+  MES WiSe
+DTSTART:20261016T080000
+DTEND:20261016T093000
+DESCRIPTION:8:00 - 9:30 Uhr V Schaltungstechnik II MSE Prof. Dr.-Ing Keil 
+ Hörsaal 26-216 (IWIN) MES WiSe
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Schaltungstechnik II MSE Prof. Dr.-Ing Keil Labor für Schaltungst
+ echnik 26-119 MES WiSe
+DTSTART:20261016T094500
+DTEND:20261016T111500
+DESCRIPTION:9:45 - 11:15 Uhr PR Schaltungstechnik II MSE Prof. Dr.-Ing Kei
+ l Labor für Schaltungstechnik 26-119 MES WiSe
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Schaltungstechnik II MSE Prof. Dr.-Ing Keil Labor für Schaltungst
+ echnik 26-119 MES WiSe
+DTSTART:20261016T113000
+DTEND:20261016T130000
+DESCRIPTION:11:30 - 13:00 Uhr PR Schaltungstechnik II MSE Prof. Dr.-Ing Ke
+ il Labor für Schaltungstechnik 26-119 MES WiSe
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Schaltungstechnik II MSE Prof. Dr.-Ing Keil Hörsaal 26-216 (IWIN)
+  MES WiSe
+DTSTART:20261016T140000
+DTEND:20261016T153000
+DESCRIPTION:14:00 - 15:30 Uhr V Schaltungstechnik II MSE Prof. Dr.-Ing Kei
+ l Hörsaal 26-216 (IWIN) MES WiSe
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Aufbau von Mikrosystemen MST Prof. Dr. Kaloudis Hörsaal 49-119 au
+ fsteigend (IWIN) MST WiSe
+DTSTART:20261022T080000
+DTEND:20261022T093000
+DESCRIPTION:8:00 - 9:30 Uhr V Aufbau von Mikrosystemen MST Prof. Dr. Kalou
+ dis Hörsaal 49-119 aufsteigend (IWIN) MST WiSe
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Aufbau von Mikrosystemen MST Prof. Dr. Kaloudis Labor für Aufbau-
+  und Verbindungstechnik 49-E22 MST WiSe
+DTSTART:20261022T094500
+DTEND:20261022T111500
+DESCRIPTION:9:45 - 11:15 Uhr PR Aufbau von Mikrosystemen MST Prof. Dr. Kal
+ oudis Labor für Aufbau- und Verbindungstechnik 49-E22 MST WiSe
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Aufbau von Mikrosystemen MST Prof. Dr. Kaloudis Labor für Aufbau-
+  und Verbindungstechnik 49-E22 MST WiSe
+DTSTART:20261022T113000
+DTEND:20261022T130000
+DESCRIPTION:11:30 - 13:00 Uhr PR Aufbau von Mikrosystemen MST Prof. Dr. Ka
+ loudis Labor für Aufbau- und Verbindungstechnik 49-E22 MST WiSe
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Mikrosystemtechnologie MST Prof. Dr.-Ing Thielemann Hörsaal 40-23
+ 0 (IWIN) MST WiSe
+DTSTART:20261022T140000
+DTEND:20261022T153000
+DESCRIPTION:14:00 - 15:30 Uhr V Mikrosystemtechnologie MST Prof. Dr.-Ing T
+ hielemann Hörsaal 40-230 (IWIN) MST WiSe
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Schaltungstechnik II MSE Prof. Dr.-Ing Keil Hörsaal 26-216 (IWIN)
+  MES WiSe
+DTSTART:20261023T080000
+DTEND:20261023T093000
+DESCRIPTION:8:00 - 9:30 Uhr V Schaltungstechnik II MSE Prof. Dr.-Ing Keil 
+ Hörsaal 26-216 (IWIN) MES WiSe
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Praktikum Mikrocomputertechnik MSE Prof. Dr.-Ing Volpe Labor für 
+ Digitaltechnik und Mikrocomputertechnik 26-109/110 MES WiSe
+DTSTART:20261023T094500
+DTEND:20261023T111500
+DESCRIPTION:9:45 - 11:15 Uhr PR Praktikum Mikrocomputertechnik MSE Prof. D
+ r.-Ing Volpe Labor für Digitaltechnik und Mikrocomputertechnik 26-109/110
+  MES WiSe
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Praktikum Mikrocomputertechnik MSE Prof. Dr.-Ing Volpe Labor für 
+ Digitaltechnik und Mikrocomputertechnik 26-109/110 MES WiSe
+DTSTART:20261023T113000
+DTEND:20261023T130000
+DESCRIPTION:11:30 - 13:00 Uhr PR Praktikum Mikrocomputertechnik MSE Prof. 
+ Dr.-Ing Volpe Labor für Digitaltechnik und Mikrocomputertechnik 26-109/11
+ 0 MES WiSe
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Schaltungstechnik II MSE Prof. Dr.-Ing Keil Hörsaal 26-216 (IWIN)
+  MES WiSe
+DTSTART:20261023T140000
+DTEND:20261023T153000
+DESCRIPTION:14:00 - 15:30 Uhr V Schaltungstechnik II MSE Prof. Dr.-Ing Kei
+ l Hörsaal 26-216 (IWIN) MES WiSe
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Aufbau von Mikrosystemen MST Prof. Dr. Kaloudis Hörsaal 49-119 au
+ fsteigend (IWIN) MST WiSe
+DTSTART:20261029T080000
+DTEND:20261029T093000
+DESCRIPTION:8:00 - 9:30 Uhr V Aufbau von Mikrosystemen MST Prof. Dr. Kalou
+ dis Hörsaal 49-119 aufsteigend (IWIN) MST WiSe
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Mikrosystemtechnologie MST Prof. Dr.-Ing Thielemann Labor für Mik
+ rosystemtechnik 40-120 MST WiSe
+DTSTART:20261029T094500
+DTEND:20261029T111500
+DESCRIPTION:9:45 - 11:15 Uhr PR Mikrosystemtechnologie MST Prof. Dr.-Ing T
+ hielemann Labor für Mikrosystemtechnik 40-120 MST WiSe
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Mikrosystemtechnologie MST Prof. Dr.-Ing Thielemann Labor für Mik
+ rosystemtechnik 40-120 MST WiSe
+DTSTART:20261029T113000
+DTEND:20261029T130000
+DESCRIPTION:11:30 - 13:00 Uhr PR Mikrosystemtechnologie MST Prof. Dr.-Ing 
+ Thielemann Labor für Mikrosystemtechnik 40-120 MST WiSe
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Mikrosystemtechnologie MST Prof. Dr.-Ing Thielemann Hörsaal 40-23
+ 0 (IWIN) MST WiSe
+DTSTART:20261029T140000
+DTEND:20261029T153000
+DESCRIPTION:14:00 - 15:30 Uhr V Mikrosystemtechnologie MST Prof. Dr.-Ing T
+ hielemann Hörsaal 40-230 (IWIN) MST WiSe
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Schaltungstechnik II MSE Prof. Dr.-Ing Keil Hörsaal 26-216 (IWIN)
+  MES WiSe
+DTSTART:20261030T080000
+DTEND:20261030T093000
+DESCRIPTION:8:00 - 9:30 Uhr V Schaltungstechnik II MSE Prof. Dr.-Ing Keil 
+ Hörsaal 26-216 (IWIN) MES WiSe
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Schaltungstechnik II MSE Prof. Dr.-Ing Keil Labor für Schaltungst
+ echnik 26-119 MES WiSe
+DTSTART:20261030T094500
+DTEND:20261030T111500
+DESCRIPTION:9:45 - 11:15 Uhr PR Schaltungstechnik II MSE Prof. Dr.-Ing Kei
+ l Labor für Schaltungstechnik 26-119 MES WiSe
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Schaltungstechnik II MSE Prof. Dr.-Ing Keil Labor für Schaltungst
+ echnik 26-119 MES WiSe
+DTSTART:20261030T113000
+DTEND:20261030T130000
+DESCRIPTION:11:30 - 13:00 Uhr PR Schaltungstechnik II MSE Prof. Dr.-Ing Ke
+ il Labor für Schaltungstechnik 26-119 MES WiSe
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Schaltungstechnik II MSE Prof. Dr.-Ing Keil Hörsaal 26-216 (IWIN)
+  MES WiSe
+DTSTART:20261030T140000
+DTEND:20261030T153000
+DESCRIPTION:14:00 - 15:30 Uhr V Schaltungstechnik II MSE Prof. Dr.-Ing Kei
+ l Hörsaal 26-216 (IWIN) MES WiSe
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Aufbau von Mikrosystemen MST Prof. Dr. Kaloudis Hörsaal 49-119 au
+ fsteigend (IWIN) MST WiSe
+DTSTART:20261105T080000
+DTEND:20261105T093000
+DESCRIPTION:8:00 - 9:30 Uhr V Aufbau von Mikrosystemen MST Prof. Dr. Kalou
+ dis Hörsaal 49-119 aufsteigend (IWIN) MST WiSe
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Aufbau von Mikrosystemen MST Prof. Dr. Kaloudis Labor für Aufbau-
+  und Verbindungstechnik 49-E22 MST WiSe
+DTSTART:20261105T094500
+DTEND:20261105T111500
+DESCRIPTION:9:45 - 11:15 Uhr PR Aufbau von Mikrosystemen MST Prof. Dr. Kal
+ oudis Labor für Aufbau- und Verbindungstechnik 49-E22 MST WiSe
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Aufbau von Mikrosystemen MST Prof. Dr. Kaloudis Labor für Aufbau-
+  und Verbindungstechnik 49-E22 MST WiSe
+DTSTART:20261105T113000
+DTEND:20261105T130000
+DESCRIPTION:11:30 - 13:00 Uhr PR Aufbau von Mikrosystemen MST Prof. Dr. Ka
+ loudis Labor für Aufbau- und Verbindungstechnik 49-E22 MST WiSe
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Mikrosystemtechnologie MST Prof. Dr.-Ing Thielemann Hörsaal 40-23
+ 0 (IWIN) MST WiSe
+DTSTART:20261105T140000
+DTEND:20261105T153000
+DESCRIPTION:14:00 - 15:30 Uhr V Mikrosystemtechnologie MST Prof. Dr.-Ing T
+ hielemann Hörsaal 40-230 (IWIN) MST WiSe
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Schaltungstechnik II MSE Prof. Dr.-Ing Keil Hörsaal 26-216 (IWIN)
+  MES WiSe
+DTSTART:20261106T080000
+DTEND:20261106T093000
+DESCRIPTION:8:00 - 9:30 Uhr V Schaltungstechnik II MSE Prof. Dr.-Ing Keil 
+ Hörsaal 26-216 (IWIN) MES WiSe
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Praktikum Mikrocomputertechnik MSE Prof. Dr.-Ing Volpe Labor für 
+ Digitaltechnik und Mikrocomputertechnik 26-109/110 MES WiSe
+DTSTART:20261106T094500
+DTEND:20261106T111500
+DESCRIPTION:9:45 - 11:15 Uhr PR Praktikum Mikrocomputertechnik MSE Prof. D
+ r.-Ing Volpe Labor für Digitaltechnik und Mikrocomputertechnik 26-109/110
+  MES WiSe
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Praktikum Mikrocomputertechnik MSE Prof. Dr.-Ing Volpe Labor für 
+ Digitaltechnik und Mikrocomputertechnik 26-109/110 MES WiSe
+DTSTART:20261106T113000
+DTEND:20261106T130000
+DESCRIPTION:11:30 - 13:00 Uhr PR Praktikum Mikrocomputertechnik MSE Prof. 
+ Dr.-Ing Volpe Labor für Digitaltechnik und Mikrocomputertechnik 26-109/11
+ 0 MES WiSe
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Schaltungstechnik II MSE Prof. Dr.-Ing Keil Hörsaal 26-216 (IWIN)
+  MES WiSe
+DTSTART:20261106T140000
+DTEND:20261106T153000
+DESCRIPTION:14:00 - 15:30 Uhr V Schaltungstechnik II MSE Prof. Dr.-Ing Kei
+ l Hörsaal 26-216 (IWIN) MES WiSe
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Aufbau von Mikrosystemen MST Prof. Dr. Kaloudis Hörsaal 49-119 au
+ fsteigend (IWIN) MST WiSe
+DTSTART:20261112T080000
+DTEND:20261112T093000
+DESCRIPTION:8:00 - 9:30 Uhr V Aufbau von Mikrosystemen MST Prof. Dr. Kalou
+ dis Hörsaal 49-119 aufsteigend (IWIN) MST WiSe
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Mikrosystemtechnologie MST Prof. Dr.-Ing Thielemann Labor für Mik
+ rosystemtechnik 40-120 MST WiSe
+DTSTART:20261112T094500
+DTEND:20261112T111500
+DESCRIPTION:9:45 - 11:15 Uhr PR Mikrosystemtechnologie MST Prof. Dr.-Ing T
+ hielemann Labor für Mikrosystemtechnik 40-120 MST WiSe
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Mikrosystemtechnologie MST Prof. Dr.-Ing Thielemann Labor für Mik
+ rosystemtechnik 40-120 MST WiSe
+DTSTART:20261112T113000
+DTEND:20261112T130000
+DESCRIPTION:11:30 - 13:00 Uhr PR Mikrosystemtechnologie MST Prof. Dr.-Ing 
+ Thielemann Labor für Mikrosystemtechnik 40-120 MST WiSe
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Mikrosystemtechnologie MST Prof. Dr.-Ing Thielemann Hörsaal 40-23
+ 0 (IWIN) MST WiSe
+DTSTART:20261112T140000
+DTEND:20261112T153000
+DESCRIPTION:14:00 - 15:30 Uhr V Mikrosystemtechnologie MST Prof. Dr.-Ing T
+ hielemann Hörsaal 40-230 (IWIN) MST WiSe
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Schaltungstechnik II MSE Prof. Dr.-Ing Keil Hörsaal 26-216 (IWIN)
+  MES WiSe
+DTSTART:20261113T080000
+DTEND:20261113T093000
+DESCRIPTION:8:00 - 9:30 Uhr V Schaltungstechnik II MSE Prof. Dr.-Ing Keil 
+ Hörsaal 26-216 (IWIN) MES WiSe
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Schaltungstechnik II MSE Prof. Dr.-Ing Keil Labor für Schaltungst
+ echnik 26-119 MES WiSe
+DTSTART:20261113T094500
+DTEND:20261113T111500
+DESCRIPTION:9:45 - 11:15 Uhr PR Schaltungstechnik II MSE Prof. Dr.-Ing Kei
+ l Labor für Schaltungstechnik 26-119 MES WiSe
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Schaltungstechnik II MSE Prof. Dr.-Ing Keil Labor für Schaltungst
+ echnik 26-119 MES WiSe
+DTSTART:20261113T113000
+DTEND:20261113T130000
+DESCRIPTION:11:30 - 13:00 Uhr PR Schaltungstechnik II MSE Prof. Dr.-Ing Ke
+ il Labor für Schaltungstechnik 26-119 MES WiSe
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Schaltungstechnik II MSE Prof. Dr.-Ing Keil Hörsaal 26-216 (IWIN)
+  MES WiSe
+DTSTART:20261113T140000
+DTEND:20261113T153000
+DESCRIPTION:14:00 - 15:30 Uhr V Schaltungstechnik II MSE Prof. Dr.-Ing Kei
+ l Hörsaal 26-216 (IWIN) MES WiSe
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Aufbau von Mikrosystemen MST Prof. Dr. Kaloudis Hörsaal 49-119 au
+ fsteigend (IWIN) MST WiSe
+DTSTART:20261119T080000
+DTEND:20261119T093000
+DESCRIPTION:8:00 - 9:30 Uhr V Aufbau von Mikrosystemen MST Prof. Dr. Kalou
+ dis Hörsaal 49-119 aufsteigend (IWIN) MST WiSe
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Aufbau von Mikrosystemen MST Prof. Dr. Kaloudis Labor für Aufbau-
+  und Verbindungstechnik 49-E22 MST WiSe
+DTSTART:20261119T094500
+DTEND:20261119T111500
+DESCRIPTION:9:45 - 11:15 Uhr PR Aufbau von Mikrosystemen MST Prof. Dr. Kal
+ oudis Labor für Aufbau- und Verbindungstechnik 49-E22 MST WiSe
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Aufbau von Mikrosystemen MST Prof. Dr. Kaloudis Labor für Aufbau-
+  und Verbindungstechnik 49-E22 MST WiSe
+DTSTART:20261119T113000
+DTEND:20261119T130000
+DESCRIPTION:11:30 - 13:00 Uhr PR Aufbau von Mikrosystemen MST Prof. Dr. Ka
+ loudis Labor für Aufbau- und Verbindungstechnik 49-E22 MST WiSe
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Mikrosystemtechnologie MST Prof. Dr.-Ing Thielemann Hörsaal 40-23
+ 0 (IWIN) MST WiSe
+DTSTART:20261119T140000
+DTEND:20261119T153000
+DESCRIPTION:14:00 - 15:30 Uhr V Mikrosystemtechnologie MST Prof. Dr.-Ing T
+ hielemann Hörsaal 40-230 (IWIN) MST WiSe
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Schaltungstechnik II MSE Prof. Dr.-Ing Keil Hörsaal 26-216 (IWIN)
+  MES WiSe
+DTSTART:20261120T080000
+DTEND:20261120T093000
+DESCRIPTION:8:00 - 9:30 Uhr V Schaltungstechnik II MSE Prof. Dr.-Ing Keil 
+ Hörsaal 26-216 (IWIN) MES WiSe
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Praktikum Mikrocomputertechnik MSE Prof. Dr.-Ing Volpe Labor für 
+ Digitaltechnik und Mikrocomputertechnik 26-109/110 MES WiSe
+DTSTART:20261120T094500
+DTEND:20261120T111500
+DESCRIPTION:9:45 - 11:15 Uhr PR Praktikum Mikrocomputertechnik MSE Prof. D
+ r.-Ing Volpe Labor für Digitaltechnik und Mikrocomputertechnik 26-109/110
+  MES WiSe
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Praktikum Mikrocomputertechnik MSE Prof. Dr.-Ing Volpe Labor für 
+ Digitaltechnik und Mikrocomputertechnik 26-109/110 MES WiSe
+DTSTART:20261120T113000
+DTEND:20261120T130000
+DESCRIPTION:11:30 - 13:00 Uhr PR Praktikum Mikrocomputertechnik MSE Prof. 
+ Dr.-Ing Volpe Labor für Digitaltechnik und Mikrocomputertechnik 26-109/11
+ 0 MES WiSe
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Schaltungstechnik II MSE Prof. Dr.-Ing Keil Hörsaal 26-216 (IWIN)
+  MES WiSe
+DTSTART:20261120T140000
+DTEND:20261120T153000
+DESCRIPTION:14:00 - 15:30 Uhr V Schaltungstechnik II MSE Prof. Dr.-Ing Kei
+ l Hörsaal 26-216 (IWIN) MES WiSe
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Aufbau von Mikrosystemen MST Prof. Dr. Kaloudis Hörsaal 49-119 au
+ fsteigend (IWIN) MST WiSe
+DTSTART:20261126T080000
+DTEND:20261126T093000
+DESCRIPTION:8:00 - 9:30 Uhr V Aufbau von Mikrosystemen MST Prof. Dr. Kalou
+ dis Hörsaal 49-119 aufsteigend (IWIN) MST WiSe
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Mikrosystemtechnologie MST Prof. Dr.-Ing Thielemann Labor für Mik
+ rosystemtechnik 40-120 MST WiSe
+DTSTART:20261126T094500
+DTEND:20261126T111500
+DESCRIPTION:9:45 - 11:15 Uhr PR Mikrosystemtechnologie MST Prof. Dr.-Ing T
+ hielemann Labor für Mikrosystemtechnik 40-120 MST WiSe
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Mikrosystemtechnologie MST Prof. Dr.-Ing Thielemann Labor für Mik
+ rosystemtechnik 40-120 MST WiSe
+DTSTART:20261126T113000
+DTEND:20261126T130000
+DESCRIPTION:11:30 - 13:00 Uhr PR Mikrosystemtechnologie MST Prof. Dr.-Ing 
+ Thielemann Labor für Mikrosystemtechnik 40-120 MST WiSe
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Mikrosystemtechnologie MST Prof. Dr.-Ing Thielemann Hörsaal 40-23
+ 0 (IWIN) MST WiSe
+DTSTART:20261126T140000
+DTEND:20261126T153000
+DESCRIPTION:14:00 - 15:30 Uhr V Mikrosystemtechnologie MST Prof. Dr.-Ing T
+ hielemann Hörsaal 40-230 (IWIN) MST WiSe
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Schaltungstechnik II MSE Prof. Dr.-Ing Keil Hörsaal 26-216 (IWIN)
+  MES WiSe
+DTSTART:20261127T080000
+DTEND:20261127T093000
+DESCRIPTION:8:00 - 9:30 Uhr V Schaltungstechnik II MSE Prof. Dr.-Ing Keil 
+ Hörsaal 26-216 (IWIN) MES WiSe
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Schaltungstechnik II MSE Prof. Dr.-Ing Keil Labor für Schaltungst
+ echnik 26-119 MES WiSe
+DTSTART:20261127T094500
+DTEND:20261127T111500
+DESCRIPTION:9:45 - 11:15 Uhr PR Schaltungstechnik II MSE Prof. Dr.-Ing Kei
+ l Labor für Schaltungstechnik 26-119 MES WiSe
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Schaltungstechnik II MSE Prof. Dr.-Ing Keil Labor für Schaltungst
+ echnik 26-119 MES WiSe
+DTSTART:20261127T113000
+DTEND:20261127T130000
+DESCRIPTION:11:30 - 13:00 Uhr PR Schaltungstechnik II MSE Prof. Dr.-Ing Ke
+ il Labor für Schaltungstechnik 26-119 MES WiSe
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Schaltungstechnik II MSE Prof. Dr.-Ing Keil Hörsaal 26-216 (IWIN)
+  MES WiSe
+DTSTART:20261127T140000
+DTEND:20261127T153000
+DESCRIPTION:14:00 - 15:30 Uhr V Schaltungstechnik II MSE Prof. Dr.-Ing Kei
+ l Hörsaal 26-216 (IWIN) MES WiSe
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Aufbau von Mikrosystemen MST Prof. Dr. Kaloudis Hörsaal 49-119 au
+ fsteigend (IWIN) MST WiSe
+DTSTART:20261203T080000
+DTEND:20261203T093000
+DESCRIPTION:8:00 - 9:30 Uhr V Aufbau von Mikrosystemen MST Prof. Dr. Kalou
+ dis Hörsaal 49-119 aufsteigend (IWIN) MST WiSe
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Aufbau von Mikrosystemen MST Prof. Dr. Kaloudis Labor für Aufbau-
+  und Verbindungstechnik 49-E22 MST WiSe
+DTSTART:20261203T094500
+DTEND:20261203T111500
+DESCRIPTION:9:45 - 11:15 Uhr PR Aufbau von Mikrosystemen MST Prof. Dr. Kal
+ oudis Labor für Aufbau- und Verbindungstechnik 49-E22 MST WiSe
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Aufbau von Mikrosystemen MST Prof. Dr. Kaloudis Labor für Aufbau-
+  und Verbindungstechnik 49-E22 MST WiSe
+DTSTART:20261203T113000
+DTEND:20261203T130000
+DESCRIPTION:11:30 - 13:00 Uhr PR Aufbau von Mikrosystemen MST Prof. Dr. Ka
+ loudis Labor für Aufbau- und Verbindungstechnik 49-E22 MST WiSe
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Schaltungstechnik II MSE Prof. Dr.-Ing Keil Hörsaal 26-216 (IWIN)
+  MES WiSe
+DTSTART:20261204T080000
+DTEND:20261204T093000
+DESCRIPTION:8:00 - 9:30 Uhr V Schaltungstechnik II MSE Prof. Dr.-Ing Keil 
+ Hörsaal 26-216 (IWIN) MES WiSe
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Praktikum Mikrocomputertechnik MSE Prof. Dr.-Ing Volpe Labor für 
+ Digitaltechnik und Mikrocomputertechnik 26-109/110 MES WiSe
+DTSTART:20261204T094500
+DTEND:20261204T111500
+DESCRIPTION:9:45 - 11:15 Uhr PR Praktikum Mikrocomputertechnik MSE Prof. D
+ r.-Ing Volpe Labor für Digitaltechnik und Mikrocomputertechnik 26-109/110
+  MES WiSe
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Praktikum Mikrocomputertechnik MSE Prof. Dr.-Ing Volpe Labor für 
+ Digitaltechnik und Mikrocomputertechnik 26-109/110 MES WiSe
+DTSTART:20261204T113000
+DTEND:20261204T130000
+DESCRIPTION:11:30 - 13:00 Uhr PR Praktikum Mikrocomputertechnik MSE Prof. 
+ Dr.-Ing Volpe Labor für Digitaltechnik und Mikrocomputertechnik 26-109/11
+ 0 MES WiSe
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Schaltungstechnik II MSE Prof. Dr.-Ing Keil Hörsaal 26-216 (IWIN)
+  MES WiSe
+DTSTART:20261204T140000
+DTEND:20261204T153000
+DESCRIPTION:14:00 - 15:30 Uhr V Schaltungstechnik II MSE Prof. Dr.-Ing Kei
+ l Hörsaal 26-216 (IWIN) MES WiSe
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Aufbau von Mikrosystemen MST Prof. Dr. Kaloudis Hörsaal 49-119 au
+ fsteigend (IWIN) MST WiSe
+DTSTART:20261210T080000
+DTEND:20261210T093000
+DESCRIPTION:8:00 - 9:30 Uhr V Aufbau von Mikrosystemen MST Prof. Dr. Kalou
+ dis Hörsaal 49-119 aufsteigend (IWIN) MST WiSe
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Mikrosystemtechnologie MST Prof. Dr.-Ing Thielemann Labor für Mik
+ rosystemtechnik 40-120 MST WiSe
+DTSTART:20261210T094500
+DTEND:20261210T111500
+DESCRIPTION:9:45 - 11:15 Uhr PR Mikrosystemtechnologie MST Prof. Dr.-Ing T
+ hielemann Labor für Mikrosystemtechnik 40-120 MST WiSe
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Mikrosystemtechnologie MST Prof. Dr.-Ing Thielemann Labor für Mik
+ rosystemtechnik 40-120 MST WiSe
+DTSTART:20261210T113000
+DTEND:20261210T130000
+DESCRIPTION:11:30 - 13:00 Uhr PR Mikrosystemtechnologie MST Prof. Dr.-Ing 
+ Thielemann Labor für Mikrosystemtechnik 40-120 MST WiSe
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Schaltungstechnik II MSE Prof. Dr.-Ing Keil Hörsaal 26-216 (IWIN)
+  MES WiSe
+DTSTART:20261211T080000
+DTEND:20261211T093000
+DESCRIPTION:8:00 - 9:30 Uhr V Schaltungstechnik II MSE Prof. Dr.-Ing Keil 
+ Hörsaal 26-216 (IWIN) MES WiSe
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Schaltungstechnik II MSE Prof. Dr.-Ing Keil Labor für Schaltungst
+ echnik 26-119 MES WiSe
+DTSTART:20261211T094500
+DTEND:20261211T111500
+DESCRIPTION:9:45 - 11:15 Uhr PR Schaltungstechnik II MSE Prof. Dr.-Ing Kei
+ l Labor für Schaltungstechnik 26-119 MES WiSe
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Schaltungstechnik II MSE Prof. Dr.-Ing Keil Labor für Schaltungst
+ echnik 26-119 MES WiSe
+DTSTART:20261211T113000
+DTEND:20261211T130000
+DESCRIPTION:11:30 - 13:00 Uhr PR Schaltungstechnik II MSE Prof. Dr.-Ing Ke
+ il Labor für Schaltungstechnik 26-119 MES WiSe
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Schaltungstechnik II MSE Prof. Dr.-Ing Keil Hörsaal 26-216 (IWIN)
+  MES WiSe
+DTSTART:20261211T140000
+DTEND:20261211T153000
+DESCRIPTION:14:00 - 15:30 Uhr V Schaltungstechnik II MSE Prof. Dr.-Ing Kei
+ l Hörsaal 26-216 (IWIN) MES WiSe
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Aufbau von Mikrosystemen MST Prof. Dr. Kaloudis Hörsaal 49-119 au
+ fsteigend (IWIN) MST WiSe
+DTSTART:20261217T080000
+DTEND:20261217T093000
+DESCRIPTION:8:00 - 9:30 Uhr V Aufbau von Mikrosystemen MST Prof. Dr. Kalou
+ dis Hörsaal 49-119 aufsteigend (IWIN) MST WiSe
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Aufbau von Mikrosystemen MST Prof. Dr. Kaloudis Labor für Aufbau-
+  und Verbindungstechnik 49-E22 MST WiSe
+DTSTART:20261217T094500
+DTEND:20261217T111500
+DESCRIPTION:9:45 - 11:15 Uhr PR Aufbau von Mikrosystemen MST Prof. Dr. Kal
+ oudis Labor für Aufbau- und Verbindungstechnik 49-E22 MST WiSe
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Aufbau von Mikrosystemen MST Prof. Dr. Kaloudis Labor für Aufbau-
+  und Verbindungstechnik 49-E22 MST WiSe
+DTSTART:20261217T113000
+DTEND:20261217T130000
+DESCRIPTION:11:30 - 13:00 Uhr PR Aufbau von Mikrosystemen MST Prof. Dr. Ka
+ loudis Labor für Aufbau- und Verbindungstechnik 49-E22 MST WiSe
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Schaltungstechnik II MSE Prof. Dr.-Ing Keil Hörsaal 26-216 (IWIN)
+  MES WiSe
+DTSTART:20261218T080000
+DTEND:20261218T093000
+DESCRIPTION:8:00 - 9:30 Uhr V Schaltungstechnik II MSE Prof. Dr.-Ing Keil 
+ Hörsaal 26-216 (IWIN) MES WiSe
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Praktikum Mikrocomputertechnik MSE Prof. Dr.-Ing Volpe Labor für 
+ Digitaltechnik und Mikrocomputertechnik 26-109/110 MES WiSe
+DTSTART:20261218T094500
+DTEND:20261218T111500
+DESCRIPTION:9:45 - 11:15 Uhr PR Praktikum Mikrocomputertechnik MSE Prof. D
+ r.-Ing Volpe Labor für Digitaltechnik und Mikrocomputertechnik 26-109/110
+  MES WiSe
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Praktikum Mikrocomputertechnik MSE Prof. Dr.-Ing Volpe Labor für 
+ Digitaltechnik und Mikrocomputertechnik 26-109/110 MES WiSe
+DTSTART:20261218T113000
+DTEND:20261218T130000
+DESCRIPTION:11:30 - 13:00 Uhr PR Praktikum Mikrocomputertechnik MSE Prof. 
+ Dr.-Ing Volpe Labor für Digitaltechnik und Mikrocomputertechnik 26-109/11
+ 0 MES WiSe
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Schaltungstechnik II MSE Prof. Dr.-Ing Keil Hörsaal 26-216 (IWIN)
+  MES WiSe
+DTSTART:20261218T140000
+DTEND:20261218T153000
+DESCRIPTION:14:00 - 15:30 Uhr V Schaltungstechnik II MSE Prof. Dr.-Ing Kei
+ l Hörsaal 26-216 (IWIN) MES WiSe
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Aufbau von Mikrosystemen MST Prof. Dr. Kaloudis Hörsaal 49-119 au
+ fsteigend (IWIN) MST WiSe
+DTSTART:20270107T080000
+DTEND:20270107T093000
+DESCRIPTION:8:00 - 9:30 Uhr V Aufbau von Mikrosystemen MST Prof. Dr. Kalou
+ dis Hörsaal 49-119 aufsteigend (IWIN) MST WiSe
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Mikrosystemtechnologie MST Prof. Dr.-Ing Thielemann Labor für Mik
+ rosystemtechnik 40-120 MST WiSe
+DTSTART:20270107T094500
+DTEND:20270107T111500
+DESCRIPTION:9:45 - 11:15 Uhr PR Mikrosystemtechnologie MST Prof. Dr.-Ing T
+ hielemann Labor für Mikrosystemtechnik 40-120 MST WiSe
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Mikrosystemtechnologie MST Prof. Dr.-Ing Thielemann Labor für Mik
+ rosystemtechnik 40-120 MST WiSe
+DTSTART:20270107T113000
+DTEND:20270107T130000
+DESCRIPTION:11:30 - 13:00 Uhr PR Mikrosystemtechnologie MST Prof. Dr.-Ing 
+ Thielemann Labor für Mikrosystemtechnik 40-120 MST WiSe
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Schaltungstechnik II MSE Prof. Dr.-Ing Keil Hörsaal 26-216 (IWIN)
+  MES WiSe
+DTSTART:20270108T080000
+DTEND:20270108T093000
+DESCRIPTION:8:00 - 9:30 Uhr V Schaltungstechnik II MSE Prof. Dr.-Ing Keil 
+ Hörsaal 26-216 (IWIN) MES WiSe
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Schaltungstechnik II MSE Prof. Dr.-Ing Keil Labor für Schaltungst
+ echnik 26-119 MES WiSe
+DTSTART:20270108T094500
+DTEND:20270108T111500
+DESCRIPTION:9:45 - 11:15 Uhr PR Schaltungstechnik II MSE Prof. Dr.-Ing Kei
+ l Labor für Schaltungstechnik 26-119 MES WiSe
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Schaltungstechnik II MSE Prof. Dr.-Ing Keil Labor für Schaltungst
+ echnik 26-119 MES WiSe
+DTSTART:20270108T113000
+DTEND:20270108T130000
+DESCRIPTION:11:30 - 13:00 Uhr PR Schaltungstechnik II MSE Prof. Dr.-Ing Ke
+ il Labor für Schaltungstechnik 26-119 MES WiSe
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Schaltungstechnik II MSE Prof. Dr.-Ing Keil Hörsaal 26-216 (IWIN)
+  MES WiSe
+DTSTART:20270108T140000
+DTEND:20270108T153000
+DESCRIPTION:14:00 - 15:30 Uhr V Schaltungstechnik II MSE Prof. Dr.-Ing Kei
+ l Hörsaal 26-216 (IWIN) MES WiSe
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Aufbau von Mikrosystemen MST Prof. Dr. Kaloudis Hörsaal 49-119 au
+ fsteigend (IWIN) MST WiSe
+DTSTART:20270114T080000
+DTEND:20270114T093000
+DESCRIPTION:8:00 - 9:30 Uhr V Aufbau von Mikrosystemen MST Prof. Dr. Kalou
+ dis Hörsaal 49-119 aufsteigend (IWIN) MST WiSe
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Aufbau von Mikrosystemen MST Prof. Dr. Kaloudis Labor für Aufbau-
+  und Verbindungstechnik 49-E22 MST WiSe
+DTSTART:20270114T094500
+DTEND:20270114T111500
+DESCRIPTION:9:45 - 11:15 Uhr PR Aufbau von Mikrosystemen MST Prof. Dr. Kal
+ oudis Labor für Aufbau- und Verbindungstechnik 49-E22 MST WiSe
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Aufbau von Mikrosystemen MST Prof. Dr. Kaloudis Labor für Aufbau-
+  und Verbindungstechnik 49-E22 MST WiSe
+DTSTART:20270114T113000
+DTEND:20270114T130000
+DESCRIPTION:11:30 - 13:00 Uhr PR Aufbau von Mikrosystemen MST Prof. Dr. Ka
+ loudis Labor für Aufbau- und Verbindungstechnik 49-E22 MST WiSe
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Schaltungstechnik II MSE Prof. Dr.-Ing Keil Hörsaal 26-216 (IWIN)
+  MES WiSe
+DTSTART:20270115T080000
+DTEND:20270115T093000
+DESCRIPTION:8:00 - 9:30 Uhr V Schaltungstechnik II MSE Prof. Dr.-Ing Keil 
+ Hörsaal 26-216 (IWIN) MES WiSe
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Praktikum Mikrocomputertechnik MSE Prof. Dr.-Ing Volpe Labor für 
+ Digitaltechnik und Mikrocomputertechnik 26-109/110 MES WiSe
+DTSTART:20270115T094500
+DTEND:20270115T111500
+DESCRIPTION:9:45 - 11:15 Uhr PR Praktikum Mikrocomputertechnik MSE Prof. D
+ r.-Ing Volpe Labor für Digitaltechnik und Mikrocomputertechnik 26-109/110
+  MES WiSe
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Praktikum Mikrocomputertechnik MSE Prof. Dr.-Ing Volpe Labor für 
+ Digitaltechnik und Mikrocomputertechnik 26-109/110 MES WiSe
+DTSTART:20270115T113000
+DTEND:20270115T130000
+DESCRIPTION:11:30 - 13:00 Uhr PR Praktikum Mikrocomputertechnik MSE Prof. 
+ Dr.-Ing Volpe Labor für Digitaltechnik und Mikrocomputertechnik 26-109/11
+ 0 MES WiSe
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Schaltungstechnik II MSE Prof. Dr.-Ing Keil Hörsaal 26-216 (IWIN)
+  MES WiSe
+DTSTART:20270115T140000
+DTEND:20270115T153000
+DESCRIPTION:14:00 - 15:30 Uhr V Schaltungstechnik II MSE Prof. Dr.-Ing Kei
+ l Hörsaal 26-216 (IWIN) MES WiSe
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Aufbau von Mikrosystemen MST Prof. Dr. Kaloudis Hörsaal 49-119 au
+ fsteigend (IWIN) MST WiSe
+DTSTART:20270121T080000
+DTEND:20270121T093000
+DESCRIPTION:8:00 - 9:30 Uhr V Aufbau von Mikrosystemen MST Prof. Dr. Kalou
+ dis Hörsaal 49-119 aufsteigend (IWIN) MST WiSe
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Mikrosystemtechnologie MST Prof. Dr.-Ing Thielemann Labor für Mik
+ rosystemtechnik 40-120 MST WiSe
+DTSTART:20270121T094500
+DTEND:20270121T111500
+DESCRIPTION:9:45 - 11:15 Uhr PR Mikrosystemtechnologie MST Prof. Dr.-Ing T
+ hielemann Labor für Mikrosystemtechnik 40-120 MST WiSe
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Mikrosystemtechnologie MST Prof. Dr.-Ing Thielemann Labor für Mik
+ rosystemtechnik 40-120 MST WiSe
+DTSTART:20270121T113000
+DTEND:20270121T130000
+DESCRIPTION:11:30 - 13:00 Uhr PR Mikrosystemtechnologie MST Prof. Dr.-Ing 
+ Thielemann Labor für Mikrosystemtechnik 40-120 MST WiSe
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Schaltungstechnik II MSE Prof. Dr.-Ing Keil Hörsaal 26-216 (IWIN)
+  MES WiSe
+DTSTART:20270122T080000
+DTEND:20270122T093000
+DESCRIPTION:8:00 - 9:30 Uhr V Schaltungstechnik II MSE Prof. Dr.-Ing Keil 
+ Hörsaal 26-216 (IWIN) MES WiSe
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Schaltungstechnik II MSE Prof. Dr.-Ing Keil Labor für Schaltungst
+ echnik 26-119 MES WiSe
+DTSTART:20270122T094500
+DTEND:20270122T111500
+DESCRIPTION:9:45 - 11:15 Uhr PR Schaltungstechnik II MSE Prof. Dr.-Ing Kei
+ l Labor für Schaltungstechnik 26-119 MES WiSe
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Schaltungstechnik II MSE Prof. Dr.-Ing Keil Labor für Schaltungst
+ echnik 26-119 MES WiSe
+DTSTART:20270122T113000
+DTEND:20270122T130000
+DESCRIPTION:11:30 - 13:00 Uhr PR Schaltungstechnik II MSE Prof. Dr.-Ing Ke
+ il Labor für Schaltungstechnik 26-119 MES WiSe
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Schaltungstechnik II MSE Prof. Dr.-Ing Keil Hörsaal 26-216 (IWIN)
+  MES WiSe
+DTSTART:20270122T140000
+DTEND:20270122T153000
+DESCRIPTION:14:00 - 15:30 Uhr V Schaltungstechnik II MSE Prof. Dr.-Ing Kei
+ l Hörsaal 26-216 (IWIN) MES WiSe
+END:VEVENT
+END:VCALENDAR
